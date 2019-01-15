@@ -4,7 +4,7 @@ operacion_elegida = input("Elige el tipo de operacion (SUMA/RESTA/MULTIPLICACION
 
 operaciones = ["SUMA","RESTA","MULTIPLICACION","DIVISION"]
 
-while operaciones in operacion_elegida:
+while operacion_elegida != "SUMA" or "RESTA" or "MULTIPLICACION" or "DIVISION":
     print("No has elegido ninguna operacion")
     input("Elige operacion")
 
